@@ -21,11 +21,6 @@ var _site_bg_overlay_disable =                    false; // [true, false] - forc
 // https://maps.google.com/
 // --------------------------------------------------
 //
-//
-// map (google map)
-// https://maps.google.com/
-// --------------------------------------------------
-//
 
 // [true, false] - enable or disable google map
 var _map_toggle =                                 true;
@@ -45,7 +40,7 @@ var _map_water_color =                            '#1080f2';
 //
 
 // for desktop
-var _bg_style_desktop =                           0;
+var _bg_style_desktop =                           2;
                                                     // 0 = flat color
                                                     // 1 = flat color     (mp3 audio) - audio place at /audio/audio.mp3
                                                     // 2 = image
@@ -62,7 +57,7 @@ var _bg_style_desktop =                           0;
                                                     // 13 = youtube video (youtube + mp3 audio) - audio place at /audio/audio.mp3
 
 // for mobile
-var _bg_style_mobile =                            0;
+var _bg_style_mobile =                            2;
                                                     // 0 = flat color
                                                     // 1 = flat color (mp3 audio) - audio place at /audio/audio.mp3
                                                     // 2 = image
@@ -86,8 +81,8 @@ var _bg_video_youtube_loop =                      true; // true, false - video l
 //
 // background effect (constellation, parallax star star, particles)
 // --------------------------------------------------
-var _site_bg_effect =                             3; // 0 = disable, 1 = constellation, 2 = parallax star star, 3 = particles
-var _side_bg_effect_parallax =                    false; // [true, false] - enable parallax effect on effect 1,2 its force disable on mobile, and not work with outdated browser
+var _site_bg_effect =                             0; // 0 = disable, 1 = constellation, 2 = parallax star star, 3 = particles
+var _side_bg_effect_parallax =                    true; // [true, false] - enable parallax effect on effect 1,2 its force disable on mobile, and not work with outdated browser
 
 // if _bg_effect == 1 (constellation)
 var _constellation_color =                        'rgba(255, 255, 255, .9)';// [rgba format] - constellation color

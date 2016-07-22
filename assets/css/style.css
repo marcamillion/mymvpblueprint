@@ -6886,7 +6886,7 @@ form._default textarea {
 
 @media (min-width: 768px) {
   #home {
-    padding: 230px 0 180px;
+    padding: 170px 0 180px;
   }
 }
 
@@ -7088,4 +7088,8 @@ form._default textarea {
 .site-footer-copyright {
   opacity: 0.5;
   margin-top: 30px;
+}
+
+.highlight {
+  color: #FF9F80;
 }
