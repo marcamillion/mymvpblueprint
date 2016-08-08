@@ -6886,7 +6886,7 @@ form._default textarea {
 
 @media (min-width: 768px) {
   #home {
-    padding: 170px 0 180px;
+    padding: 170px 0 50px;
   }
 }
 
@@ -7092,4 +7092,12 @@ form._default textarea {
 
 .highlight {
   color: #FF9F80;
+}
+
+.ten-pp-testimonial footer {
+  color: white;
+}
+
+blockquote p {
+  font-size: 1em;
 }
