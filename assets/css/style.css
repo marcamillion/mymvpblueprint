@@ -7101,3 +7101,7 @@ form._default textarea {
 blockquote p {
   font-size: 1em;
 }
+
+.section-note {
+  margin-top: 30px;
+}
