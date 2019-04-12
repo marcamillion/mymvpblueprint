@@ -6,3 +6,84 @@
  * --------------------------------------------------
  *
  */
+
+ .about-blue {
+   color: #1080f2 !important;
+ }
+
+ .about-white {
+   color: white;
+ }
+
+
+ .block-blue {
+   background-color: #1080f2;
+   color: #fff;
+ }
+
+ .block-blue:not( > .block-default) h1,
+ .block-blue:not( > .block-default) h2,
+ .block-blue:not( > .block-default) h3,
+ .block-blue:not( > .block-default) h4,
+ .block-blue:not( > .block-default) h5,
+ .block-blue:not( > .block-default) h6,
+ .block-blue:not( > *.block-invert) h1,
+ .block-blue:not( > *.block-invert) h2,
+ .block-blue:not( > *.block-invert) h3,
+ .block-blue:not( > *.block-invert) h4,
+ .block-blue:not( > *.block-invert) h5,
+ .block-blue:not( > *.block-invert) h6,
+ .block-blue:not( > *.block-blue) h1,
+ .block-blue:not( > *.block-blue) h2,
+ .block-blue:not( > *.block-blue) h3,
+ .block-blue:not( > *.block-blue) h4,
+ .block-blue:not( > *.block-blue) h5,
+ .block-blue:not( > *.block-blue) h6,
+ .block-blue:not( > *.block-primary) h1,
+ .block-blue:not( > *.block-primary) h2,
+ .block-blue:not( > *.block-primary) h3,
+ .block-blue:not( > *.block-primary) h4,
+ .block-blue:not( > *.block-primary) h5,
+ .block-blue:not( > *.block-primary) h6,
+ .block-blue:not( > *.block-info) h1,
+ .block-blue:not( > *.block-info) h2,
+ .block-blue:not( > *.block-info) h3,
+ .block-blue:not( > *.block-info) h4,
+ .block-blue:not( > *.block-info) h5,
+ .block-blue:not( > *.block-info) h6,
+ .block-blue:not( > *.block-success) h1,
+ .block-blue:not( > *.block-success) h2,
+ .block-blue:not( > *.block-success) h3,
+ .block-blue:not( > *.block-success) h4,
+ .block-blue:not( > *.block-success) h5,
+ .block-blue:not( > *.block-success) h6,
+ .block-blue:not( > *.block-warning) h1,
+ .block-blue:not( > *.block-warning) h2,
+ .block-blue:not( > *.block-warning) h3,
+ .block-blue:not( > *.block-warning) h4,
+ .block-blue:not( > *.block-warning) h5,
+ .block-blue:not( > *.block-warning) h6,
+ .block-blue:not( > *.block-danger) h1,
+ .block-blue:not( > *.block-danger) h2,
+ .block-blue:not( > *.block-danger) h3,
+ .block-blue:not( > *.block-danger) h4,
+ .block-blue:not( > *.block-danger) h5,
+ .block-blue:not( > *.block-danger) h6,
+ .block-blue:not( > *.block-pink) h1,
+ .block-blue:not( > *.block-pink) h2,
+ .block-blue:not( > *.block-pink) h3,
+ .block-blue:not( > *.block-pink) h4,
+ .block-blue:not( > *.block-pink) h5,
+ .block-blue:not( > *.block-pink) h6 {
+   color: #212121;
+ }
+
+ .block-blue a:not(.btn) {
+   color: #1080f2;
+ }
+
+ .block-blue a:not(.btn):focus,
+ .block-blue a:not(.btn):hover {
+   color: #0e73d9;
+   text-decoration: none;
+ }
